@@ -1,0 +1,20 @@
+{
+  "name": "mr2",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Kindergarten/mr2",
+  "authors": [
+    "Adam <adam.poczatek@brandview.com>"
+  ],
+  "description": "Playground",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.4"
+  }
+}
