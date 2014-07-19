@@ -1,15 +1,24 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
-  "private": true,
+  "name": "mr2",
+  "version": "0.0.0",
+  "description": "Playground",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "express": "3.4.8",
-    "jade": "*"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kindergarten/mr2.git"
   },
+  "author": "Adam Poczatek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kindergarten/mr2/issues"
+  },
+  "homepage": "https://github.com/Kindergarten/mr2",
   "devDependencies": {
-    "grunt": "~0.4.4"
+    "grunt": "~0.4.5",
+    "matchdep": "~0.3.0",
+    "grunt-contrib-connect": "~0.8.0"
   }
 }
